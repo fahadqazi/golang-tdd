@@ -2,8 +2,8 @@ package sum
 
 func Sum(numbers [5]int) int {
 	var sum int
-	for _, v := range numbers {
-		sum += v
+	for _, number := range numbers {
+		sum += number
 	}
 
 	return sum
