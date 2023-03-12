@@ -41,3 +41,9 @@ func TestSumAll(t *testing.T) {
 		t.Errorf("got %v want %v", got, want)
 	}
 }
+
+func ExampleSumAll() {
+	sum := SumAll([]int{1, 2}, []int{3, 4}, []int{5, 6})
+	fmt.Println(sum)
+	// Output: [3 7 11]
+}
